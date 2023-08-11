@@ -43,7 +43,6 @@ public class InGameHudMixin {
             RenderSystem.enableBlend();
             RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
             GlStateManager._texParameter(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-            context.drawTexture(KiwiClient.DUCK, 0, 0, 0, 0, 53, 59, 53, 59);
             RenderSystem.disableBlend();
             RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
         }
