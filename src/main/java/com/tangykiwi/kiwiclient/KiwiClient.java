@@ -44,7 +44,6 @@ public class KiwiClient implements ModInitializer {
 	public static EventBus eventBus = new EventBus();
 
 	public static Identifier EARS = new Identifier("kiwiclient:textures/cosmetic/ears.png");
-	public static Identifier DUCK = new Identifier("kiwiclient:textures/hud/duck.png");
 	public static Identifier CAPE = new Identifier("kiwiclient:textures/cosmetic/cape/cape.png");
 	public static Identifier CAPE2 = new Identifier("kiwiclient:textures/cosmetic/cape/gura_cape.png");
 	public static Identifier CAPE3 = new Identifier("kiwiclient:textures/cosmetic/cape/ahri_nsfw_cape.png");
